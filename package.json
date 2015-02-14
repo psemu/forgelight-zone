@@ -1,0 +1,20 @@
+{
+    "name": "forgelight-zone",
+    "description": "Read and write .zone files for SOE's ForgeLight engine.",
+    "version": "0.1.1",
+    "main": "zone.js",
+    "author": {
+        "name" : "Jacob Seidelin", 
+        "email" : "jseidelin@nihilogic.dk", 
+        "url" : "http://github.com/jseidelin"
+    },
+    "repository" : {
+        "type" : "git", 
+        "url" : "https://github.com/psemu/forgelight-zone.git"
+    },
+    "dependencies": {
+        "bufferext": "git+https://github.com/jseidelin/bufferext.git",
+        "dataschema": "git+https://github.com/jseidelin/dataschema.git"
+    }
+
+}
